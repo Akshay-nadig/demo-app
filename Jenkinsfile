@@ -8,7 +8,7 @@ pipeline {
  stage('Checkout') {
  steps {
  git branch:'main',
- url:'hhttps://github.com/Akshay-nadig/demo-app.git'
+ url:'https://github.com/Akshay-nadig/demo-app.git'
  }
  }
  stage('Build') {
