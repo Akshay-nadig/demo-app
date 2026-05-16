@@ -7,7 +7,7 @@ pipeline {
  stages {
  stage('Checkout') {
  steps {
- git branch:'master',
+ git branch:'main',
  url:'hhttps://github.com/Akshay-nadig/demo-app.git'
  }
  }
