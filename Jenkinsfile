@@ -8,7 +8,7 @@ pipeline {
  stage('Checkout') {
  steps {
  git branch:'master',
- url:'https://github.com/SKYFALLrumbles/3.git'
+ url:'hhttps://github.com/Akshay-nadig/demo-app.git'
  }
  }
  stage('Build') {
